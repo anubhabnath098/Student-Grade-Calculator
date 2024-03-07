@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <h1>Student Grade Calculator</h1>
+        <form action="/submit" method="POST">
+            
+            <input type="text" placeholder="Enter Name" name="name" class="name" required>
+            <input type="text" placeholder="Enter age" name="age" class="age" required>
+            <input type="text" placeholder="Enter marks in Eng" name="eng" class="eng">
+            <input type="text" placeholder="Enter marks in Phy" name="phy" class="phy">
+            <input type="text" placeholder="Enter marks in Chem" name="chem" class="chem">
+            <input type="text" placeholder="Enter marks in Maths" name="maths" class="maths">
+            <input type="text" placeholder="Enter marks in CS" name="cs" class="cs">
+            
+        </form>
+        <input type="submit" value="submit">
+    </div>
+    <div class="gradecard"> 
+        <!-- <h3 class="head">Name: </h3> 
+        <h3 class="head">Age: </h3>
+        <h3 class="head">Total Marks: </h3>
+        <h3 class="head">Percentage: </h3>
+        <h3 class="head">Grade: </h3> 
+        <h3 class="head">Remarks: </h3>     -->
+    </div>
+    </header>
+    <script src="./index.js"></script>
+</body>
+</html>
